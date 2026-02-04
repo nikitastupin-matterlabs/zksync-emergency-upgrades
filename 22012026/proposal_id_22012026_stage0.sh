@@ -35,7 +35,7 @@ fi
 #      - mintValue = 570,000,000,000,000,000,000
 #      - l2Contract = 0x0000000000000000000000000000000000010002 (Bridge hub contract)
 #      - l2Value = 0
-#      - l2Calldata = 0x
+#      - l2Calldata = 0xac700e63 (`bytes4(keccak256("pauseMigration()"))`)
 #      - l2GasLimit = 10,000,000
 #      - l2GasPerPubdataByteLimit = 800
 #      - factoryDeps = []
